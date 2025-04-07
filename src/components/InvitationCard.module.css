@@ -1,0 +1,51 @@
+.card {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  background: var(--primary-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.host {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.details {
+  margin-bottom: 1.5rem;
+}
+
+.details p {
+  margin: 0.5rem 0;
+}
+
+.description {
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.footer {
+  background: var(--secondary-color);
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
